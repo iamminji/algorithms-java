@@ -1,4 +1,4 @@
-package com.leetcode.easy;
+package com.leetcode.solutions.easy;
 
 /**
  * 0001. https://leetcode.com/problems/two-sum/
