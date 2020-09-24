@@ -5,7 +5,7 @@ package com.leetcode.solutions.easy;
  * Try 2
  *  nums input 값의 범위를 제대로 확인 하지 않았다.
  */
-public class _0198_HouseRobber {
+public class _0198_HouseRobber_01 {
     public int rob(int[] nums) {
 
         if (nums.length == 0) {
