@@ -2,9 +2,8 @@ package com.leetcode.solutions.medium;
 
 import java.util.*;
 
-// Try 1 TLE
 // Try 2 8 ms (Sliding Window)
-public class _0438_FindAllAnagramsInAString {
+public class _0438_FindAllAnagramsInAString_02 {
 
     public boolean match(int[] sc, int[] pc) {
         for (int i = 0; i < 26; i++) {
@@ -49,7 +48,7 @@ public class _0438_FindAllAnagramsInAString {
 
 
     public static void main(String[] args) {
-        _0438_FindAllAnagramsInAString main = new _0438_FindAllAnagramsInAString();
+        _0438_FindAllAnagramsInAString_02 main = new _0438_FindAllAnagramsInAString_02();
         System.out.println(main.findAnagrams("cbaebabacd", "abc"));
         System.out.println(main.findAnagrams("abab", "ab"));
         System.out.println(main.findAnagrams("aaaaaaaaa", "aa"));
